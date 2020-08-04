@@ -1,4 +1,4 @@
-(ns problem-41)
+(ns week-01.problem-41)
 
 ; Write a function which drops every Nth item from a sequence.
 

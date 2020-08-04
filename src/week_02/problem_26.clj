@@ -1,4 +1,4 @@
-(ns problem-26)
+(ns week-02.problem-26)
 
 ; Write a function which returns the first X fibonacci numbers.
 (defn __ [x]

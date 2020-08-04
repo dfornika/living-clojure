@@ -1,4 +1,4 @@
-(ns problem-66
+(ns week-02.problem-66
   (:require [clojure.set]))
 
 (defn __ [x y]

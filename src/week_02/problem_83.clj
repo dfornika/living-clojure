@@ -1,4 +1,4 @@
-(ns problem-83)
+(ns week-02.problem-83)
 
 
 (defn __ [& x]

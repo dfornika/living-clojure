@@ -1,4 +1,4 @@
-(ns problem-33)
+(ns week-01.problem-33)
 
 ; Write a function which replicates each element of a sequence a variable number of times.
 

@@ -1,4 +1,4 @@
-(ns problem-30)
+(ns week-01.problem-30)
 
 (defn __ [coll]
   (seq (reduce #(if (= (last %) %2) % (conj % %2)) [] coll)))

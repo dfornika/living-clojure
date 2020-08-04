@@ -1,4 +1,4 @@
-(ns problem-31)
+(ns week-01.problem-31)
 
 (defn __ [x]
   (partition-by identity x))
