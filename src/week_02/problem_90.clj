@@ -2,7 +2,10 @@
 
 ; Write a function which calculates the Cartesian product of two sets.
 
-(defn __ [a b])
+(defn __ [a b]
+  (set (for [a-member a 
+             b-member b]
+         [a-member b-member])))
 
 (= (__ #{"ace" "king" "queen"} #{"♠" "♥" "♦" "♣"})
    #{["ace"   "♠"] ["ace"   "♥"] ["ace"   "♦"] ["ace"   "♣"]
